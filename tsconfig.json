@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist/",
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"module": "commonjs",
+		"target": "es2015",
+		"experimentalDecorators": true,
+		"jsx": "react"
+	},
+	"awesomeTypescriptLoaderOptions":
+	{
+		"useBabel": true
+	},
+	"filesGlob": [
+		"**/*.ts",
+		"**/*.tsx",
+		"!node_modules/**"
+	],
+	"files": [
+		"./src/index.tsx"
+	]
+}
